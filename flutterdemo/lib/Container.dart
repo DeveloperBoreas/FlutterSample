@@ -23,7 +23,7 @@ class ContainerWidget extends StatelessWidget {
           ),
           borderRadius: const BorderRadius.all(const Radius.circular(40))
         ),
-        child: new Image.asset("image/a.jpg"),
+        child: new Image.asset("image/a1.jpg"),
       ),
     );
   }

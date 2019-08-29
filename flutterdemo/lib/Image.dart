@@ -13,7 +13,7 @@ class ImageWidget extends StatelessWidget {
     // TODO: implement build
     return new Center(
       child: Image.asset(
-        "image/a.jpg",
+        "image/a1.jpg",
         fit: BoxFit.fill,
         scale: 0.9,
         color: Colors.blue,
