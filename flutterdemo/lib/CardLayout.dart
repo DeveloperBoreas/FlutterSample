@@ -25,7 +25,44 @@ class CardLayout extends StatelessWidget {
                 color: Colors.green,
               ),
             ),
-            new Divider()
+            new Divider(),
+            new ListTile(
+              title: new Text(
+                "北京市海淀区",
+                style:
+                TextStyle(fontWeight: FontWeight.w400, color: Colors.pink),
+              ),
+              subtitle: new Text('北京欢迎你。'),
+              leading: new Icon(
+                Icons.account_balance,
+                color: Colors.green,
+              ),
+            ),
+            new Divider(),new ListTile(
+              title: new Text(
+                "北京市海淀区",
+                style:
+                TextStyle(fontWeight: FontWeight.w400, color: Colors.pink),
+              ),
+              subtitle: new Text('北京欢迎你。'),
+              leading: new Icon(
+                Icons.account_balance,
+                color: Colors.green,
+              ),
+            ),
+            new Divider(),new ListTile(
+              title: new Text(
+                "北京市海淀区",
+                style:
+                TextStyle(fontWeight: FontWeight.w400, color: Colors.pink),
+              ),
+              subtitle: new Text('北京欢迎你。'),
+              leading: new Icon(
+                Icons.account_balance,
+                color: Colors.green,
+              ),
+            ),
+            new Divider(),
           ],
         ),
       ),
