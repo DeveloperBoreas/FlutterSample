@@ -13,6 +13,7 @@ class Container extends StatelessWidget {
           new Text(
             "红色+黑色删除线 25号",
             style: new TextStyle(
+              fontFamily: 'lovebook',
               color: const Color(0xffff0000),
               decoration: TextDecoration.lineThrough,
               decorationColor: const Color(0xff000000),
@@ -21,7 +22,8 @@ class Container extends StatelessWidget {
           ),
 
           new Text(
-            "橙色+下划线 24号",
+//            "橙色+下划线 24号",
+            "测试字体",
             style: new TextStyle(
               color: const Color(0xffff9900),
               decoration: TextDecoration.underline,
